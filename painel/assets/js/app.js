@@ -3,6 +3,11 @@ import Router from './vendor/vue-router.js'
 
 import get_template from './components/get_template.js'
 
+import header from './components/c-header.js'
+Vue.component('c-header', header)
+
+import aside from './components/c-aside.js'
+Vue.component('c-aside', aside)
 
 import page_home from './view/home/home.js'
 Vue.component('p-home', page_home)
